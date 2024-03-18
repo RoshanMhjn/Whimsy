@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.nav {
+  border-bottom: 2px solid #65b741;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.link,
+.link-second {
+  text-decoration: none;
+  color: black;
+}
+
+.link-brand {
+  display: flex;
+  align-items: center;
+}
+
+.main-tag {
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #65b741;
+}
+
+.header-input {
+  height: 3rem;
+  width: 250px;
+  padding: 1rem;
+  margin-left: 3rem;
+  border: 1px solid #65b741;
+  border-radius: 0.3rem;
+}
+
+.search {
+  margin-left: -1.5rem;
+}
+
+.link-second {
+  margin-left: 2rem;
+}
+
+.sign-in {
+  padding: 0.7rem;
+  width: 150px;
+  border: 2px solid #65b741;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  opacity: 80%;
+}
+
+.sign-in .link {
+  color: #65b741;
+  font-weight: 700;
+}
+
+.link-items {
+  font-weight: 600;
+  position: relative;
+}
+
+.link-items:before,
+.link-items:after {
+  transition: all 0.5s;
+}
+
+.link-items:hover {
+  color: #65b741;
+}
+
+.link-items:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #65b741;
+  height: 2px;
+}
+
+.link-items:hover:after {
+  width: 100%;
+}
+
+.active {
+  color: #65b741;
+}

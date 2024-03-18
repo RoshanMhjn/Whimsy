@@ -1,0 +1,68 @@
+p.greeting-text {
+  color: #65b741;
+}
+
+.home {
+  display: flex;
+}
+
+.homepage-welcome,
+.hero-image {
+  width: 50%;
+  height: 100vh;
+}
+
+.hero-image .img {
+  height: 400px;
+  width: 400px;
+  border-radius: 4rem;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homepage-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 6rem;
+}
+
+.homepage-welcome .greeting-text {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 6rem;
+}
+
+.homepage-welcome .brand-name {
+  font-size: 60px;
+  font-weight: 600;
+  color: #65b741;
+}
+
+.home-hero-btn {
+  padding: 0.7rem;
+  width: 150px;
+  border: 2px solid #65b741;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #65b741;
+  font-weight: 700;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-greet-text {
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 30px;
+}
