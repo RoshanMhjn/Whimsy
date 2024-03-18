@@ -29,7 +29,7 @@ p.greeting-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 6rem;
+  margin-left: 6rem;
 }
 
 .homepage-welcome .greeting-text {

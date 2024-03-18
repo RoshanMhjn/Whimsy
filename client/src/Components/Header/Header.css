@@ -2,7 +2,7 @@
 
 .nav {
   border-bottom: 2px solid #65b741;
-  padding: 1rem;
+  padding: 1rem 6rem;
   align-items: center;
   display: flex;
   align-items: center;
@@ -51,10 +51,12 @@
   border: 2px solid #65b741;
   border-radius: 8px;
   cursor: pointer;
+  color: #65b741;
+  font-weight: 700;
 }
 
 .sign-in:hover {
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .sign-in .link {

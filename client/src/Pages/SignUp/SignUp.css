@@ -3,6 +3,7 @@
   flex-basis: auto;
   height: 100vh;
   justify-content: center;
+  padding: 1rem;
 }
 
 .signup-brand {
@@ -91,4 +92,15 @@ form input {
 
 .error-message {
   color: red;
+  cursor: default;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.error-box {
+  border: 2px solid red;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
 }

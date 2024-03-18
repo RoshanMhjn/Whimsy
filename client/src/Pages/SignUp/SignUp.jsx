@@ -88,9 +88,13 @@ export const SignUp = () => {
           <span className="signup-text">Already have an account?</span>
           Sign In
         </Link>
-      </div>
 
-      {errorMessage && <p className="error-message">{errorMessage}</p>}
+        {errorMessage && (
+          <div className="error-box">
+            <p className="error-message">{errorMessage}</p>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
