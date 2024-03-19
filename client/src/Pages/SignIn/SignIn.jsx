@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const SignIn = () => {
   return (
-    <div>
+    <div className="signin">
       SignIn
       <Link to="/sign-up">Sign Up</Link>
     </div>

@@ -81,11 +81,11 @@ export const SignUp = () => {
           />
 
           <button type="submit" className="form-submit" disabled={loading}>
-            {loading ? <p>Loading...</p> : "Sign Up"}
+            {loading ? <p className="main-loading">Loading...</p> : "Sign Up"}
           </button>
         </form>
-        <Link className="signup-link" to="/sign-up">
-          <span className="signup-text">Already have an account?</span>
+        <span className="signup-text">Already have an account?</span>
+        <Link className="signup-link" to="/sign-in">
           Sign In
         </Link>
 

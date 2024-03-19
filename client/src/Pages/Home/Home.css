@@ -4,12 +4,17 @@ p.greeting-text {
 
 .home {
   display: flex;
+  min-height: 100vh;
 }
 
 .homepage-welcome,
 .hero-image {
   width: 50%;
   height: 100vh;
+}
+
+.homepage-welcome p {
+  cursor: default;
 }
 
 .hero-image .img {
@@ -52,6 +57,10 @@ p.greeting-text {
   cursor: pointer;
   color: #65b741;
   font-weight: 700;
+}
+
+.home-hero-btn:hover {
+  opacity: 90%;
 }
 
 .home-buttons {

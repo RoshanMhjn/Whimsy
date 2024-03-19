@@ -2,5 +2,5 @@ import React from "react";
 import "./About.css";
 
 export const About = () => {
-  return <div>About</div>;
+  return <div className="about">About</div>;
 };

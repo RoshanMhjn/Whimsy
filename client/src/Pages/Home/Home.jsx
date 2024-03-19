@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import hero_image from "./Assets/hero.jpg";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -19,7 +20,10 @@ export const Home = () => {
         </p>
         <div className="home-buttons">
           <button className="home-hero-btn">Explore</button>
-          <button className="home-hero-btn">SignUp</button>
+
+          <Link to={"./sign-up"}>
+            <button className="home-hero-btn">SignUp</button>
+          </Link>
         </div>
       </div>
 
