@@ -78,7 +78,11 @@ export const SignIn = () => {
           />
 
           <button type="submit" className="form-submit" disabled={loading}>
-            {loading ? <p className="main-loading">Loading...</p> : "Sign in"}
+            {loading ? (
+              <p className="main-loading-signin">Loading...</p>
+            ) : (
+              "Sign in"
+            )}
           </button>
         </form>
         <span className="signin-text">Don't have an account?</span>
