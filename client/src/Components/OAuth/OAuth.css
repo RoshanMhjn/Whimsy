@@ -1,0 +1,10 @@
+.google-button {
+  padding: 0.7rem;
+  width: 100%;
+  border: 2px solid #65b741;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #65b741;
+  margin: 1rem 0;
+}
